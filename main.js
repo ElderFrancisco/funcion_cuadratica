@@ -30,7 +30,7 @@ function raiz(a,b,c) {
     return(raices);
 }
 resultadoR = raiz(numeroA,numeroB,numeroC);
-alert("Las raices son: " + resultadoR +"(la coma es separador de raices)");
+alert("Las raices son: " + resultadoR +"( la coma es separador de raices)");
 
 function ordenadaAlOrigen(a,b,c) {
     let fx1 = a * (Math.pow(0,2));
