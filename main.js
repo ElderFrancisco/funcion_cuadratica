@@ -1,7 +1,14 @@
-let numeroA = prompt("numero de A");
-let exponenteA = prompt("exponente de A");
-let numeroB = prompt("numero de B");
-let numeroC = prompt("numero de C");
+let numeroANumerador = prompt("numerador de A");
+let numeroADenominador = prompt("Denominador de A");
+let numeroBNumerador = prompt("numerador de B");
+let numeroBDenominador = prompt("denominador de B");
+let numeroCNumerador = prompt("numerador de C");
+let numeroCDenominador = prompt("denominador de C");
+
+let numeroA = numeroANumerador / numeroADenominador
+let numeroB = numeroBNumerador / numeroBDenominador
+let numeroC = numeroCNumerador / numeroCDenominador
+
 
 function verticeX(a,b) {
     return(
