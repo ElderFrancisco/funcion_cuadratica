@@ -1,7 +1,7 @@
-let numeroA = Number(prompt("numero de A"));
-let exponenteA = Number(prompt("exponente de A"));
-let numeroB = Number(prompt("numero de B"));
-let numeroC = Number(prompt("numero de C"));
+let numeroA = prompt("numero de A");
+let exponenteA = prompt("exponente de A");
+let numeroB = prompt("numero de B");
+let numeroC = prompt("numero de C");
 
 function verticeX(a,b) {
     return(
