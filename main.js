@@ -19,14 +19,14 @@ function verticeX(a,b) {
 resultadoVX = verticeX(numeroA,numeroB);
 alert("El vertice en X es: " + resultadoVX);
 
-function verticeY(a,e,b,c,vx) {
-    let paA = a * (Math.pow(vx,e));
+function verticeY(a,b,c,vx) {
+    let paA = a * (Math.pow(vx,2));
     let paB = b * vx;
     let paC = c;
     let resultado = paA + paB + paC;
     return(resultado);
 }
-resultadoVY = verticeY(numeroA,exponenteA,numeroB,numeroC,resultadoVX);
+resultadoVY = verticeY(numeroA,numeroB,numeroC,resultadoVX);
 alert("El vertice en Y es: " + resultadoVY);
 
 function raiz(a,b,c) {
