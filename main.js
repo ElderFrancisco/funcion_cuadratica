@@ -1,9 +1,9 @@
-let numeroANumerador = number(prompt("numerador de A"));
-let numeroADenominador = number(prompt("Denominador de A"));
-let numeroBNumerador = number(prompt("numerador de B"));
-let numeroBDenominador = number(prompt("denominador de B"));
-let numeroCNumerador = number(prompt("numerador de C"));
-let numeroCDenominador = number(prompt("denominador de C"));
+let numeroANumerador = prompt("numerador de A");
+let numeroADenominador = prompt("Denominador de A");
+let numeroBNumerador = prompt("numerador de B");
+let numeroBDenominador = prompt("denominador de B");
+let numeroCNumerador = prompt("numerador de C");
+let numeroCDenominador = prompt("denominador de C");
 
 let numeroA = (numeroANumerador / numeroADenominador)
 let numeroB = (numeroBNumerador / numeroBDenominador)
